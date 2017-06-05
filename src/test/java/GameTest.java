@@ -9,4 +9,9 @@ public class GameTest {
     assertEquals(true, testGame instanceof Game);
   }
 
+  @Test
+  public void isEmpty_returnsIfStringNotPresent_false() {
+    Game testGame = new Game();
+    assertEquals(false, testGame.isEmpty());
+  }
 }
