@@ -10,8 +10,11 @@ public class GameTest {
   }
 
   @Test
-  public void isEmpty_returnsIfStringNotPresent_false() {
+  public void getWord_returnsWord_String(){
     Game testGame = new Game();
-    assertEquals(false, testGame.isEmpty());
+    String expectedStringOutput =
+    assertEquals("hi", testGame.getWord());
   }
+
+
 }
